@@ -1,0 +1,122 @@
+body {
+    font-family: Suse;
+    font-size: 20px;
+    background-color: rgba(255, 192, 203, 0.37);
+    margin-inline: 0;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: Fascinate Inline;
+    color: cadetblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(205, 92, 92, 0.418);
+    margin-top: -10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-block: 2px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navigation a{
+    color:cadetblue;
+    
+}
+
+.navigation a:visited{
+    color: darkcyan;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 10%;
+    margin-top: 4%;
+    max-width: 50%;
+    padding-inline-start: 1%;
+}
+
+.about-me h2{
+    margin-bottom: -5px;
+}
+
+.propic {
+    max-width: 90%;
+    border-radius: 50%;
+    border: 2px solid pink;
+    margin-top: 20%;
+    margin-left: 30%;
+}
+
+.my-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10%;
+    margin-top: 10%;
+}
+
+.my-work h2{
+    margin-bottom: -5px;
+}
+
+#projects-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.prosum {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0;
+    background-color: rgba(205, 92, 92, 0.418);
+}
+
+
+.web-dev, .digital-art, .ux-design {
+    padding-block: 3%;
+}
+
+.web-dev img {
+    max-width: 50vw;
+}
+
+.ux-design img{
+    max-width: 100%;
+}
+
+.digital-art img{
+    max-width: 100%;
+}
+
+.digital-art:hover, .ux-design:hover, .web-dev:hover {
+    transform: scale(1.2);
+    transition: .2s;
+}
